@@ -1,0 +1,3 @@
+What happens when you initialize a directory? Why do you need to do it?
+
+You need to initialize a directory to tell the git program to add that directory to the list of directories it is tracking. We need to attach git to the directory to create a file where logs are stored.

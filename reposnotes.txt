@@ -1,3 +1,8 @@
 What happens when you initialize a directory? Why do you need to do it?
 
 You need to initialize a directory to tell the git program to add that directory to the list of directories it is tracking. We need to attach git to the directory to create a file where logs are stored.
+
+How is the staging area different from the working directory and the repositories? What value do you think it offers?
+
+The staging area is a list or map of files in the directory to be added to the next commit. Not the actual files. When the user is done making changes to the files, the files in the staging area are added to the repository. This allows developers to commit only those files they wish to commit at a certain stage, rather than all the files in the directory or just those that have changed since the last commit.
+

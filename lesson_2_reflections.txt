@@ -6,4 +6,17 @@ From that point on, git can be used for version control in that directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area maps the files that we want to add from the working directory to the repository
-on the next commit.
+on the next commit. Small change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add files to the staging area after a logical change has been completed. Then commit the change with an appropriate commit message desribing the change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When multiple versions of a project are needed.
+When we wish to experiment with new code, without impacting working code.
+Create development branch whenever moving on to a different piece of work.
+When we need to work on earlier version of code, to address bug for instance.
+
+

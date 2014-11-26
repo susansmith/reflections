@@ -19,4 +19,8 @@ When we wish to experiment with new code, without impacting working code.
 Create development branch whenever moving on to a different piece of work.
 When we need to work on earlier version of code, to address bug for instance.
 
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help us to see how the branches relate to one another, for example whether a commit on one branch is a parent on another.
+They can also help us see which commits (when made in a 'headless' state, may become unreachable if they are not associated with their own branch.
 

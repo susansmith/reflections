@@ -1,1 +1,24 @@
 When would you create a remote repository rather than keeping everything local?
+
+A remote repository allows you to access your files from any computer. It also allows you to collaborate with others who also have access to the repository.
+
+Why might you want to always pull changes manually rather than have git automatically stay up-to-date with your remote repository?
+
+You may want to review the changes made to Github before doing a pull, to be sure that these are changes that you want to add to local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a copy of an existing respository on GitHub. A clone is a copy of a repository from Github to local respository. A branch is a label for a set of commits, which can exist in both the local and GitHub respositories.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can have access to the files on the remote repository when you are not attached to GitHub. Basically this is a copy of the GitHub repo at the time that the last fetch or pull occurred.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could collaborate via email or wiki, sending patches of changed files back and forth. It would be easier because you wouldn't have to go through GitHub to view and make the change. It would be harder because emails are difficult to track in terms of version. You could accidentally revert without realizing it.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It's quicker to make changes directly to master, but making changes in a separate branch facilitates collaboration by making it possible to create pull-requests, which notify collaborators that a proposed change has been submitted and give them an opportunity to review the changes before merging them into the master branch. This helps keep the master branch robust and prevents unexpected changes from occurring.
+
